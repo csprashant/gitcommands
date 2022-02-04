@@ -3,6 +3,8 @@ package com.nt.entity;
 public class Student {
 	private String name;
 	private int rollno;
+	private float per;
+	private float stipend;
 	public Student() {
 	}
 	public String getName() {
