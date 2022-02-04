@@ -5,6 +5,18 @@ public class Student {
 	private int rollno;
 	private float per;
 	private float stipend;
+	public float getPer() {
+		return per;
+	}
+	public void setPer(float per) {
+		this.per = per;
+	}
+	public float getStipend() {
+		return stipend;
+	}
+	public void setStipend(float stipend) {
+		this.stipend = stipend;
+	}
 	public Student() {
 	}
 	public String getName() {
